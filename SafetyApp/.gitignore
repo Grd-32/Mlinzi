@@ -1,0 +1,70 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+/dist
+/build
+.expo/
+.expo-shared/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Mobile
+android/
+ios/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+Thumbs.db
+.DS_Store
+*.log
+
+# Testing
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Certificates (sensitive)
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Built app
+*.apk
+*.aab
+*.ipa
+
+# Node
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+lerna-debug.log
+
+# Lock files (optional - uncomment to track)
+# package-lock.json
+# yarn.lock
